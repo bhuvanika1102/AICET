@@ -1,0 +1,96 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply basic styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6600;
+}
+
+/* Style the "Login" and "Register" buttons in the navigation */
+.auth-buttons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Push buttons to the right */
+  padding-right: 20px; /* Add some spacing to the right */
+}
+
+.orange-button {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px; /* Add some spacing between buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.orange-button:hover {
+  background-color: darkorange;
+}
+
+/* Continue with your other CSS styles */
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply basic styles */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('image.jpg'); /* Add your image path here */
+  
+  background-size: cover;
+  
+  background-position: top top center;
+
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ... Other CSS styles ... */
